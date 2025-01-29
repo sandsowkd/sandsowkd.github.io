@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeremy Huang</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    #hobbies {
+      flex: 1;
+      margin-top: 50px;
+    }
+
+    .hobby-card {
+      margin: 10px;
+    }
+
+    .card-container {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: box-shadow 0.3s;
+    }
+
+    .card-container:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #footer {
+      margin-top: auto;
+    }
+
+    .container {
+      max-width: 90%;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+    <a class="navbar-brand" href="#">Jeremy Huang</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hobbies.html">Hobbies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html">Projects</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <img src="./../resources/img/icon.png" alt="Your Image" style="width: 30px; height: 30px; border-radius: 50%;">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5 d-flex flex-column align-items-center">
+    <img src="./../resources/img/profile.png" alt="Jeremy Huang" class="img-fluid rounded-circle mb-4" style="max-width: 200px;" id="self-image">
+    
+    <div class="text-left" id="self-desc">
+      <p>Hi, I'm Jeremy, a sophomore at CU Boulder majoring in Math and Computer Science. I'm from Mississippi (believe it or not). Beyond academics, I enjoy video games, skiing, and fishing. Recently, I've been addicted to Brawl Stars and the Pokemon TCG Game. I'm also passionate about software development and recently worked on a project in Edvise, an initiative focused on improving course planning for students. I'm excited to grow my skills, connect with like-minded peers, and contribute to the tech community!</p>    
+      <a href="resume.html" class="btn btn-primary">Resume</a>
+    </div>
+  </div>
+  
+
+<footer class="bg-dark text-light text-center py-3" id="footer">
+    <div class="">
+      <a href="#" class="text-light mx-2" onclick="alert('I have never had a Twitter account.')"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/jerhuang" class="text-light mx-2"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/sandsowkd" class="text-light mx-2"><i class="fab fa-github"></i></a>
+      <a href="#" class="text-light mx-2" onclick="alert('I deleted Instagram.')"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
